@@ -1,0 +1,161 @@
+\begin{theindex}
+
+  \item {add\+\_\+lok}
+    \subitem {kontener.\+h}, \hyperpage{10}
+  \item {add\+\_\+slowo}
+    \subitem {kontener.\+h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {daj\+\_\+indx}
+    \subitem {kontener.\+h}, \hyperpage{10}
+  \item {dodaj\+\_\+slowa}
+    \subitem {kontener.\+h}, \hyperpage{10}
+  \item {dodaj\+\_\+wystapienia}
+    \subitem {kontener.\+h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {gen\+\_\+stat}
+    \subitem {wypisywanie.\+h}, \hyperpage{13}
+  \item {gen\+\_\+t}
+    \subitem {wypisywanie.\+h}, \hyperpage{13}
+  \item {generator.\+h}, \hyperpage{9}
+
+  \indexspace
+
+  \item {kontener.\+h}, \hyperpage{9}
+    \subitem {add\+\_\+lok}, \hyperpage{10}
+    \subitem {add\+\_\+slowo}, \hyperpage{10}
+    \subitem {daj\+\_\+indx}, \hyperpage{10}
+    \subitem {dodaj\+\_\+slowa}, \hyperpage{10}
+    \subitem {dodaj\+\_\+wystapienia}, \hyperpage{10}
+    \subitem {lok\+\_\+t}, \hyperpage{10}
+    \subitem {M\+A\+X\+\_\+\+F\+I\+L\+E\+\_\+\+D\+N}, \hyperpage{10}
+    \subitem {nowy\+\_\+wej}, \hyperpage{10}
+    \subitem {polacz}, \hyperpage{10}
+    \subitem {pusty\+\_\+slownik}, \hyperpage{10}
+    \subitem {S\+T\+A\+R\+T\+\_\+\+V\+E\+C}, \hyperpage{10}
+    \subitem {slownik\+\_\+t}, \hyperpage{10}
+    \subitem {slowo\+\_\+t}, \hyperpage{10}
+    \subitem {sortuj}, \hyperpage{10}
+    \subitem {W\+R\+D\+\_\+\+M\+A\+X\+\_\+\+L\+E\+N\+G\+H\+T}, 
+		\hyperpage{10}
+    \subitem {wej\+\_\+t}, \hyperpage{10}
+
+  \indexspace
+
+  \item {lok}
+    \subitem {slowo}, \hyperpage{7}
+  \item {lok\+\_\+t}
+    \subitem {kontener.\+h}, \hyperpage{10}
+  \item {lokalizacja}, \hyperpage{5}
+    \subitem {nr}, \hyperpage{5}
+    \subitem {pref}, \hyperpage{5}
+    \subitem {suf}, \hyperpage{5}
+
+  \indexspace
+
+  \item {M\+A\+X\+\_\+\+F\+I\+L\+E\+\_\+\+D\+N}
+    \subitem {kontener.\+h}, \hyperpage{10}
+  \item {main}
+    \subitem {main.\+c}, \hyperpage{11}
+  \item {main.\+c}, \hyperpage{11}
+    \subitem {main}, \hyperpage{11}
+  \item {max\+\_\+gram}
+    \subitem {stat.\+h}, \hyperpage{12}
+  \item {max\+\_\+slowo}
+    \subitem {stat.\+h}, \hyperpage{12}
+  \item {miejsce}
+    \subitem {slownik}, \hyperpage{6}
+    \subitem {slowo}, \hyperpage{7}
+
+  \indexspace
+
+  \item {nazwy}
+    \subitem {wej}, \hyperpage{7}
+  \item {nowy\+\_\+wej}
+    \subitem {kontener.\+h}, \hyperpage{10}
+  \item {nr}
+    \subitem {lokalizacja}, \hyperpage{5}
+
+  \indexspace
+
+  \item {ostatnie}
+    \subitem {slownik}, \hyperpage{6}
+
+  \indexspace
+
+  \item {pojemnosc}
+    \subitem {wej}, \hyperpage{7}
+  \item {polacz}
+    \subitem {kontener.\+h}, \hyperpage{10}
+  \item {powieksz\+\_\+slownik}
+    \subitem {wczytywanie.\+h}, \hyperpage{13}
+  \item {pref}
+    \subitem {lokalizacja}, \hyperpage{5}
+  \item {pusty\+\_\+slownik}
+    \subitem {kontener.\+h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {S\+T\+A\+R\+T\+\_\+\+V\+E\+C}
+    \subitem {kontener.\+h}, \hyperpage{10}
+  \item {slownik}, \hyperpage{5}
+    \subitem {miejsce}, \hyperpage{6}
+    \subitem {ostatnie}, \hyperpage{6}
+    \subitem {slowo}, \hyperpage{6}
+    \subitem {zajete}, \hyperpage{6}
+  \item {slownik\+\_\+t}
+    \subitem {kontener.\+h}, \hyperpage{10}
+  \item {slowo}, \hyperpage{6}
+    \subitem {lok}, \hyperpage{7}
+    \subitem {miejsce}, \hyperpage{7}
+    \subitem {slownik}, \hyperpage{6}
+    \subitem {v}, \hyperpage{7}
+    \subitem {zajete}, \hyperpage{7}
+  \item {slowo\+\_\+t}
+    \subitem {kontener.\+h}, \hyperpage{10}
+  \item {sortuj}
+    \subitem {kontener.\+h}, \hyperpage{10}
+  \item {stat.\+h}, \hyperpage{12}
+    \subitem {max\+\_\+gram}, \hyperpage{12}
+    \subitem {max\+\_\+slowo}, \hyperpage{12}
+  \item {suf}
+    \subitem {lokalizacja}, \hyperpage{5}
+
+  \indexspace
+
+  \item {v}
+    \subitem {slowo}, \hyperpage{7}
+
+  \indexspace
+
+  \item {W\+R\+D\+\_\+\+M\+A\+X\+\_\+\+L\+E\+N\+G\+H\+T}
+    \subitem {kontener.\+h}, \hyperpage{10}
+  \item {wczytaj\+\_\+slownik}
+    \subitem {wczytywanie.\+h}, \hyperpage{13}
+  \item {wczytywanie.\+h}, \hyperpage{12}
+    \subitem {powieksz\+\_\+slownik}, \hyperpage{13}
+    \subitem {wczytaj\+\_\+slownik}, \hyperpage{13}
+  \item {wej}, \hyperpage{7}
+    \subitem {nazwy}, \hyperpage{7}
+    \subitem {pojemnosc}, \hyperpage{7}
+    \subitem {zajete}, \hyperpage{8}
+  \item {wej\+\_\+t}
+    \subitem {kontener.\+h}, \hyperpage{10}
+  \item {wyp\+\_\+sl}
+    \subitem {wypisywanie.\+h}, \hyperpage{13}
+  \item {wypisywanie.\+h}, \hyperpage{13}
+    \subitem {gen\+\_\+stat}, \hyperpage{13}
+    \subitem {gen\+\_\+t}, \hyperpage{13}
+    \subitem {wyp\+\_\+sl}, \hyperpage{13}
+
+  \indexspace
+
+  \item {zajete}
+    \subitem {slownik}, \hyperpage{6}
+    \subitem {slowo}, \hyperpage{7}
+    \subitem {wej}, \hyperpage{8}
+
+\end{theindex}

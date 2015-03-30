@@ -1,0 +1,162 @@
+\hypertarget{kontener_8h}{}\section{kontener.\+h File Reference}
+\label{kontener_8h}\index{kontener.\+h@{kontener.\+h}}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{kontener_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structwej}{wej}
+\item 
+struct \hyperlink{structlokalizacja}{lokalizacja}
+\item 
+struct \hyperlink{structslowo}{slowo}
+\item 
+struct \hyperlink{structslownik}{slownik}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{kontener_8h_a445e2870f22ce8f568d24b8d7212e76f}{S\+T\+A\+R\+T\+\_\+\+V\+E\+C}~2
+\item 
+\#define \hyperlink{kontener_8h_aaef6c04c23aa5ab59c7530d87e355c4e}{W\+R\+D\+\_\+\+M\+A\+X\+\_\+\+L\+E\+N\+G\+H\+T}~15
+\item 
+\#define \hyperlink{kontener_8h_a025aa7bcfdf6cb6964ab7e38fda249f5}{M\+A\+X\+\_\+\+F\+I\+L\+E\+\_\+\+D\+N}~100
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structwej}{wej} \hyperlink{kontener_8h_a3810335f93d6bf3c564371621ce0ccb3}{wej\+\_\+t}
+\item 
+typedef struct \hyperlink{structlokalizacja}{lokalizacja} \hyperlink{kontener_8h_a973470f0d2bd5351f2f79b119fc095e8}{lok\+\_\+t}
+\item 
+typedef struct \hyperlink{structslowo}{slowo} \hyperlink{kontener_8h_aac4dfae9f3beb67b30cf6fd8ddb88731}{slowo\+\_\+t}
+\item 
+typedef struct \hyperlink{structslownik}{slownik} \hyperlink{kontener_8h_a9666b9a4046e295be733508d292247cc}{slownik\+\_\+t}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{kontener_8h_a3810335f93d6bf3c564371621ce0ccb3}{wej\+\_\+t} $\ast$ \hyperlink{kontener_8h_aa0d0bb7794d019bf8f8944253547cafe}{nowy\+\_\+wej} ()
+\item 
+\hyperlink{kontener_8h_a9666b9a4046e295be733508d292247cc}{slownik\+\_\+t} $\ast$ \hyperlink{kontener_8h_a7cfaed92dca5558f1ced9f66899e74dd}{pusty\+\_\+slownik} ()
+\item 
+int \hyperlink{kontener_8h_aa0d331daa9783130554097a06a21290f}{add\+\_\+slowo} (char $\ast$v)
+\item 
+\hyperlink{kontener_8h_a9666b9a4046e295be733508d292247cc}{slownik\+\_\+t} $\ast$ \hyperlink{kontener_8h_a91587cadf9ceb1dc80d35cee8b1f425e}{dodaj\+\_\+wystapienia} (\hyperlink{kontener_8h_a9666b9a4046e295be733508d292247cc}{slownik\+\_\+t} $\ast$\hyperlink{structslownik}{slownik}, char $\ast$$\ast$teksty)
+\item 
+\hyperlink{kontener_8h_a9666b9a4046e295be733508d292247cc}{slownik\+\_\+t} $\ast$ \hyperlink{kontener_8h_a913f9baec61bbbe5ec5257a0c5ca7aa8}{dodaj\+\_\+slowa} (\hyperlink{kontener_8h_a9666b9a4046e295be733508d292247cc}{slownik\+\_\+t} $\ast$\hyperlink{structslownik}{slownik}, char $\ast$$\ast$teksty, int ilosc\+\_\+tekstow)
+\item 
+\hyperlink{kontener_8h_a9666b9a4046e295be733508d292247cc}{slownik\+\_\+t} $\ast$ \hyperlink{kontener_8h_afa9c247f602e6c5684acb911f164d85c}{sortuj} (\hyperlink{kontener_8h_a9666b9a4046e295be733508d292247cc}{slownik\+\_\+t} $\ast$\hyperlink{structslownik}{slownik})
+\item 
+\hyperlink{kontener_8h_a9666b9a4046e295be733508d292247cc}{slownik\+\_\+t} $\ast$ \hyperlink{kontener_8h_a10f50b74340789cfce83113f4ee49c00}{polacz} (\hyperlink{kontener_8h_a9666b9a4046e295be733508d292247cc}{slownik\+\_\+t} $\ast$slownik\+\_\+z\+\_\+lok, \hyperlink{kontener_8h_a9666b9a4046e295be733508d292247cc}{slownik\+\_\+t} $\ast$slownik\+\_\+nowe\+\_\+slowa)
+\item 
+int \hyperlink{kontener_8h_ac345bd8eb624ab848da831c5b5059160}{add\+\_\+lok} (\hyperlink{kontener_8h_a9666b9a4046e295be733508d292247cc}{slownik\+\_\+t} $\ast$\hyperlink{structslownik}{slownik}, char $\ast$\hyperlink{structslowo}{slowo}, char $\ast$pref, char $\ast$suf)
+\item 
+int \hyperlink{kontener_8h_a9964976ca6ce4d2ebff3105e876ab97d}{daj\+\_\+indx} (\hyperlink{kontener_8h_a9666b9a4046e295be733508d292247cc}{slownik\+\_\+t} $\ast$\hyperlink{structslownik}{slownik}, char $\ast$\hyperlink{structslowo}{slowo})
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{kontener_8h_a025aa7bcfdf6cb6964ab7e38fda249f5}{}\index{kontener.\+h@{kontener.\+h}!M\+A\+X\+\_\+\+F\+I\+L\+E\+\_\+\+D\+N@{M\+A\+X\+\_\+\+F\+I\+L\+E\+\_\+\+D\+N}}
+\index{M\+A\+X\+\_\+\+F\+I\+L\+E\+\_\+\+D\+N@{M\+A\+X\+\_\+\+F\+I\+L\+E\+\_\+\+D\+N}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{M\+A\+X\+\_\+\+F\+I\+L\+E\+\_\+\+D\+N}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\+A\+X\+\_\+\+F\+I\+L\+E\+\_\+\+D\+N~100}\label{kontener_8h_a025aa7bcfdf6cb6964ab7e38fda249f5}
+Maksymalna długość nazwy i scierzki pliku \hypertarget{kontener_8h_a445e2870f22ce8f568d24b8d7212e76f}{}\index{kontener.\+h@{kontener.\+h}!S\+T\+A\+R\+T\+\_\+\+V\+E\+C@{S\+T\+A\+R\+T\+\_\+\+V\+E\+C}}
+\index{S\+T\+A\+R\+T\+\_\+\+V\+E\+C@{S\+T\+A\+R\+T\+\_\+\+V\+E\+C}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{S\+T\+A\+R\+T\+\_\+\+V\+E\+C}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+T\+A\+R\+T\+\_\+\+V\+E\+C~2}\label{kontener_8h_a445e2870f22ce8f568d24b8d7212e76f}
+początkowa ilość pól w wektorze \hypertarget{kontener_8h_aaef6c04c23aa5ab59c7530d87e355c4e}{}\index{kontener.\+h@{kontener.\+h}!W\+R\+D\+\_\+\+M\+A\+X\+\_\+\+L\+E\+N\+G\+H\+T@{W\+R\+D\+\_\+\+M\+A\+X\+\_\+\+L\+E\+N\+G\+H\+T}}
+\index{W\+R\+D\+\_\+\+M\+A\+X\+\_\+\+L\+E\+N\+G\+H\+T@{W\+R\+D\+\_\+\+M\+A\+X\+\_\+\+L\+E\+N\+G\+H\+T}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{W\+R\+D\+\_\+\+M\+A\+X\+\_\+\+L\+E\+N\+G\+H\+T}]{\setlength{\rightskip}{0pt plus 5cm}\#define W\+R\+D\+\_\+\+M\+A\+X\+\_\+\+L\+E\+N\+G\+H\+T~15}\label{kontener_8h_aaef6c04c23aa5ab59c7530d87e355c4e}
+maksymalna długość słowa 
+
+\subsection{Typedef Documentation}
+\hypertarget{kontener_8h_a973470f0d2bd5351f2f79b119fc095e8}{}\index{kontener.\+h@{kontener.\+h}!lok\+\_\+t@{lok\+\_\+t}}
+\index{lok\+\_\+t@{lok\+\_\+t}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{lok\+\_\+t}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf lokalizacja} {\bf lok\+\_\+t}}\label{kontener_8h_a973470f0d2bd5351f2f79b119fc095e8}
+\hypertarget{kontener_8h_a9666b9a4046e295be733508d292247cc}{}\index{kontener.\+h@{kontener.\+h}!slownik\+\_\+t@{slownik\+\_\+t}}
+\index{slownik\+\_\+t@{slownik\+\_\+t}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{slownik\+\_\+t}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf slownik} {\bf slownik\+\_\+t}}\label{kontener_8h_a9666b9a4046e295be733508d292247cc}
+\hypertarget{kontener_8h_aac4dfae9f3beb67b30cf6fd8ddb88731}{}\index{kontener.\+h@{kontener.\+h}!slowo\+\_\+t@{slowo\+\_\+t}}
+\index{slowo\+\_\+t@{slowo\+\_\+t}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{slowo\+\_\+t}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf slowo} {\bf slowo\+\_\+t}}\label{kontener_8h_aac4dfae9f3beb67b30cf6fd8ddb88731}
+\hypertarget{kontener_8h_a3810335f93d6bf3c564371621ce0ccb3}{}\index{kontener.\+h@{kontener.\+h}!wej\+\_\+t@{wej\+\_\+t}}
+\index{wej\+\_\+t@{wej\+\_\+t}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{wej\+\_\+t}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf wej} {\bf wej\+\_\+t}}\label{kontener_8h_a3810335f93d6bf3c564371621ce0ccb3}
+
+
+\subsection{Function Documentation}
+\hypertarget{kontener_8h_ac345bd8eb624ab848da831c5b5059160}{}\index{kontener.\+h@{kontener.\+h}!add\+\_\+lok@{add\+\_\+lok}}
+\index{add\+\_\+lok@{add\+\_\+lok}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{add\+\_\+lok}]{\setlength{\rightskip}{0pt plus 5cm}int add\+\_\+lok (
+\begin{DoxyParamCaption}
+\item[{{\bf slownik\+\_\+t} $\ast$}]{slownik, }
+\item[{char $\ast$}]{slowo, }
+\item[{char $\ast$}]{pref, }
+\item[{char $\ast$}]{suf}
+\end{DoxyParamCaption}
+)}\label{kontener_8h_ac345bd8eb624ab848da831c5b5059160}
+\hypertarget{kontener_8h_aa0d331daa9783130554097a06a21290f}{}\index{kontener.\+h@{kontener.\+h}!add\+\_\+slowo@{add\+\_\+slowo}}
+\index{add\+\_\+slowo@{add\+\_\+slowo}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{add\+\_\+slowo}]{\setlength{\rightskip}{0pt plus 5cm}int add\+\_\+slowo (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{v}
+\end{DoxyParamCaption}
+)}\label{kontener_8h_aa0d331daa9783130554097a06a21290f}
+\hypertarget{kontener_8h_a9964976ca6ce4d2ebff3105e876ab97d}{}\index{kontener.\+h@{kontener.\+h}!daj\+\_\+indx@{daj\+\_\+indx}}
+\index{daj\+\_\+indx@{daj\+\_\+indx}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{daj\+\_\+indx}]{\setlength{\rightskip}{0pt plus 5cm}int daj\+\_\+indx (
+\begin{DoxyParamCaption}
+\item[{{\bf slownik\+\_\+t} $\ast$}]{slownik, }
+\item[{char $\ast$}]{slowo}
+\end{DoxyParamCaption}
+)}\label{kontener_8h_a9964976ca6ce4d2ebff3105e876ab97d}
+\hypertarget{kontener_8h_a913f9baec61bbbe5ec5257a0c5ca7aa8}{}\index{kontener.\+h@{kontener.\+h}!dodaj\+\_\+slowa@{dodaj\+\_\+slowa}}
+\index{dodaj\+\_\+slowa@{dodaj\+\_\+slowa}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{dodaj\+\_\+slowa}]{\setlength{\rightskip}{0pt plus 5cm}{\bf slownik\+\_\+t}$\ast$ dodaj\+\_\+slowa (
+\begin{DoxyParamCaption}
+\item[{{\bf slownik\+\_\+t} $\ast$}]{slownik, }
+\item[{char $\ast$$\ast$}]{teksty, }
+\item[{int}]{ilosc\+\_\+tekstow}
+\end{DoxyParamCaption}
+)}\label{kontener_8h_a913f9baec61bbbe5ec5257a0c5ca7aa8}
+\hypertarget{kontener_8h_a91587cadf9ceb1dc80d35cee8b1f425e}{}\index{kontener.\+h@{kontener.\+h}!dodaj\+\_\+wystapienia@{dodaj\+\_\+wystapienia}}
+\index{dodaj\+\_\+wystapienia@{dodaj\+\_\+wystapienia}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{dodaj\+\_\+wystapienia}]{\setlength{\rightskip}{0pt plus 5cm}{\bf slownik\+\_\+t}$\ast$ dodaj\+\_\+wystapienia (
+\begin{DoxyParamCaption}
+\item[{{\bf slownik\+\_\+t} $\ast$}]{slownik, }
+\item[{char $\ast$$\ast$}]{teksty}
+\end{DoxyParamCaption}
+)}\label{kontener_8h_a91587cadf9ceb1dc80d35cee8b1f425e}
+\hypertarget{kontener_8h_aa0d0bb7794d019bf8f8944253547cafe}{}\index{kontener.\+h@{kontener.\+h}!nowy\+\_\+wej@{nowy\+\_\+wej}}
+\index{nowy\+\_\+wej@{nowy\+\_\+wej}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{nowy\+\_\+wej}]{\setlength{\rightskip}{0pt plus 5cm}{\bf wej\+\_\+t}$\ast$ nowy\+\_\+wej (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{kontener_8h_aa0d0bb7794d019bf8f8944253547cafe}
+\hypertarget{kontener_8h_a10f50b74340789cfce83113f4ee49c00}{}\index{kontener.\+h@{kontener.\+h}!polacz@{polacz}}
+\index{polacz@{polacz}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{polacz}]{\setlength{\rightskip}{0pt plus 5cm}{\bf slownik\+\_\+t}$\ast$ polacz (
+\begin{DoxyParamCaption}
+\item[{{\bf slownik\+\_\+t} $\ast$}]{slownik\+\_\+z\+\_\+lok, }
+\item[{{\bf slownik\+\_\+t} $\ast$}]{slownik\+\_\+nowe\+\_\+slowa}
+\end{DoxyParamCaption}
+)}\label{kontener_8h_a10f50b74340789cfce83113f4ee49c00}
+\hypertarget{kontener_8h_a7cfaed92dca5558f1ced9f66899e74dd}{}\index{kontener.\+h@{kontener.\+h}!pusty\+\_\+slownik@{pusty\+\_\+slownik}}
+\index{pusty\+\_\+slownik@{pusty\+\_\+slownik}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{pusty\+\_\+slownik}]{\setlength{\rightskip}{0pt plus 5cm}{\bf slownik\+\_\+t}$\ast$ pusty\+\_\+slownik (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{kontener_8h_a7cfaed92dca5558f1ced9f66899e74dd}
+\hypertarget{kontener_8h_afa9c247f602e6c5684acb911f164d85c}{}\index{kontener.\+h@{kontener.\+h}!sortuj@{sortuj}}
+\index{sortuj@{sortuj}!kontener.\+h@{kontener.\+h}}
+\subsubsection[{sortuj}]{\setlength{\rightskip}{0pt plus 5cm}{\bf slownik\+\_\+t}$\ast$ sortuj (
+\begin{DoxyParamCaption}
+\item[{{\bf slownik\+\_\+t} $\ast$}]{slownik}
+\end{DoxyParamCaption}
+)}\label{kontener_8h_afa9c247f602e6c5684acb911f164d85c}
